@@ -7,6 +7,6 @@ const middlewares = jsonServer.defaults({ noCors: true });
 const port = process.env.PORT || 9000;
 
 server.use(middlewares);
-server.use(router);
+server.use("http://assignment-server-lws.herokuapp.com/todos", router);
 
 server.listen(port);
