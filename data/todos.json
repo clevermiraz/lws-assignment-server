@@ -2,7 +2,7 @@
     {
         "id": 1,
         "text": "Learn Vanilla JavaScript",
-        "completed": true,
+        "completed": false,
         "color": "green"
     },
     {
